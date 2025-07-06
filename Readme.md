@@ -19,7 +19,13 @@
 
 ## 🎯 Overview
 
+![Output](https://github.com/user-attachments/assets/85bc4c2e-354c-480d-ac24-eb0b2461adec)
+
+
 This project solves a **Data Science Internship Problem** that simulates fantasy sports team selection. The goal is to generate 20,000 unique 11-player teams from a pool of 22 players while ensuring that player selection frequencies closely match their expected selection probabilities.
+
+
+
 
 ### Key Objectives:
 - Generate 20,000 unique fantasy teams
