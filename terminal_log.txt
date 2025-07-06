@@ -1,0 +1,115 @@
+🚀 Starting Fantasy Team Simulation
+==================================================
+📊 Loading player data...
+✅ Successfully loaded 22 players
+
+📋 Dataset Overview:
+   match_code  player_code player_name        role team  perc_selection  perc_captain  perc_vice_captain
+0       10001            1   Player_20          WK    A          0.3957        0.0282             0.0285
+1       10001            2    Player_2          WK    A          0.2131        0.0052             0.0071
+2       10001            3    Player_7  Allrounder    B          0.9191        0.2362             0.1779
+3       10001            4   Player_12  Allrounder    A          0.9522        0.2945             0.2039
+4       10001            5   Player_10  Allrounder    A          0.2145        0.0104             0.0151
+
+📈 Dataset Shape: (22, 8)
+
+🎯 Roles Distribution:
+role
+Batsman       8
+Allrounder    6
+Bowler        6
+WK            2
+Name: count, dtype: int64
+
+🔍 Players by Role:
+  WK: 2 players
+  Allrounder: 6 players
+  Batsman: 8 players
+  Bowler: 6 players
+
+🎯 Generating 20000 unique teams...
+✅ Generated 1000 teams (6618.3 teams/sec)
+✅ Generated 2000 teams (6775.7 teams/sec)
+✅ Generated 3000 teams (6680.6 teams/sec)
+✅ Generated 4000 teams (6401.6 teams/sec)
+✅ Generated 5000 teams (6277.1 teams/sec)
+✅ Generated 6000 teams (6182.8 teams/sec)
+✅ Generated 7000 teams (6111.6 teams/sec)
+✅ Generated 8000 teams (5942.2 teams/sec)
+✅ Generated 9000 teams (5839.2 teams/sec)
+✅ Generated 10000 teams (5710.5 teams/sec)
+✅ Generated 11000 teams (5603.3 teams/sec)
+✅ Generated 12000 teams (5486.9 teams/sec)
+✅ Generated 13000 teams (5394.2 teams/sec)
+✅ Generated 14000 teams (5281.3 teams/sec)
+✅ Generated 15000 teams (5159.3 teams/sec)
+✅ Generated 16000 teams (5063.7 teams/sec)
+✅ Generated 17000 teams (4976.5 teams/sec)
+✅ Generated 18000 teams (4873.9 teams/sec)
+✅ Generated 19000 teams (4777.1 teams/sec)
+✅ Generated 20000 teams (4703.6 teams/sec)
+
+🏆 Successfully generated 20000 unique teams in 4.25 seconds
+📊 Total attempts: 31950
+⚡ Generation rate: 4703.4 teams/second
+
+📊 Analyzing Results...
+
+📈 SIMULATION RESULTS SUMMARY
+==================================================
+🎯 Total Teams Generated: 20,000
+👥 Total Players: 22
+✅ Players within ±5% error: 5/22
+🎯 Success Rate: 22.7%
+❌ NEEDS IMPROVEMENT: Only 5 players within threshold
+
+⚠️ Players exceeding ±5% error threshold:
+  Player_20: 0.3576 error
+  Player_2: 0.3358 error
+  Player_7: 0.2157 error
+  Player_12: 0.2359 error
+  Player_10: 0.1160 error
+  Player_22: 0.1950 error
+  Player_11: 0.1109 error
+  Player_21: 0.0734 error
+  Player_4: 0.0554 error
+  Player_9: 0.0818 error
+  Player_14: 0.1063 error
+  Player_17: 0.2286 error
+  Player_19: 0.0916 error
+  Player_13: 0.1116 error
+  Player_5: 0.1126 error
+  Player_16: 0.1350 error
+  Player_15: 0.1397 error
+
+📊 Creating Visualizations...
+
+📋 DETAILED RESULTS TABLE
+====================================================================================================
+player_name       role  expected_perc  actual_perc  absolute_error within_threshold
+  Player_20         WK         0.3957       0.7533          0.3576                ❌
+   Player_2         WK         0.2131       0.5489          0.3358                ❌
+   Player_7 Allrounder         0.9191       0.7034          0.2158                ❌
+  Player_12 Allrounder         0.9522       0.7164          0.2358                ❌
+  Player_10 Allrounder         0.2145       0.3305          0.1160                ❌
+   Player_8 Allrounder         0.5682       0.5632          0.0050                ✅
+  Player_22 Allrounder         0.8919       0.6970          0.1950                ❌
+  Player_11 Allrounder         0.2709       0.3818          0.1108                ❌
+  Player_21    Batsman         0.6935       0.6201          0.0734                ❌
+   Player_3    Batsman         0.0283       0.0632          0.0350                ✅
+  Player_18    Batsman         0.4950       0.5202          0.0252                ✅
+   Player_4    Batsman         0.6590       0.6036          0.0554                ❌
+   Player_9    Batsman         0.3618       0.4436          0.0818                ❌
+  Player_14    Batsman         0.2536       0.3599          0.1063                ❌
+  Player_17    Batsman         0.9360       0.7074          0.2286                ❌
+  Player_19    Batsman         0.3518       0.4434          0.0916                ❌
+   Player_1     Bowler         0.6634       0.6476          0.0159                ✅
+  Player_13     Bowler         0.1068       0.2184          0.1116                ❌
+   Player_5     Bowler         0.8348       0.7222          0.1126                ❌
+  Player_16     Bowler         0.3060       0.4410          0.1350                ❌
+   Player_6     Bowler         0.0330       0.0752          0.0421                ✅
+  Player_15     Bowler         0.3003       0.4400          0.1397                ❌
+
+🎉 Simulation Complete!
+
+💾 Results saved to 'simulation_results.csv'
